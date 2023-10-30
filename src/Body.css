@@ -1,0 +1,81 @@
+.services {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+
+  .services h2 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .service {
+    margin: 20px 0;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 5px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden; /* Clear floats and prevent content from wrapping */
+    margin: 20px 0;
+  }
+  
+  .service h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .service p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .service:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+
+  
+  .service-content {
+    float: left; /* Float the content to the left */
+    width: 75%; /* Set the content width to 50% */
+    padding: 0 20px; /* Add spacing between image and content */
+  }
+  
+  .service-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .service-content p {
+    font-size: 1rem;
+    color: #969191;
+    transition: color 0.3s; /* Add transition for color change */
+  }
+  
+  .service-image {
+    float: right; /* Float the image to the right */
+    width: 25%; /* Set the image width to 50% */
+  }
+  
+  .service-image img {
+    max-width: 100%; /* Ensure the image doesn't overflow */
+    height: 200px; /* Maintain aspect ratio */
+  }
+
+  .service-content:hover h3 {
+    color: #1f0f69; /* New color on hover */
+  }
+  
+  .service-content:hover p {
+    color: #1b518b; /* New color on hover */
+  }
+
+  .service-content:hover {
+    background-color: rgb(202, 198, 198);
+  }
+
+
+

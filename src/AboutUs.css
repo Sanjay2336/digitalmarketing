@@ -1,0 +1,27 @@
+.breadcrumb {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .breadcrumb-item a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .breadcrumb-item a:hover {
+    color: #007bff;
+  }
+  
+  .breadcrumb-item.active {
+    color: #007bff;
+  }
+  h2 {
+text-align: center;
+  }
+  .about-us-container {
+    background-color: #f5f5f5; /* Set the background color you desire */
+    padding: 40px 0;
+  }
+  

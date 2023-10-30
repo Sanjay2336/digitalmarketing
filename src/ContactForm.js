@@ -1,0 +1,43 @@
+import React from 'react';
+import './ContactForm.css';
+
+const handleButtonClick = () => {
+  alert('Details Recorded');
+};
+
+
+const ContactForm = () => {
+    return (
+      <div>
+        <nav aria-label="breadcrumb">
+        <ol className="breadcrumb">
+          <li className="breadcrumb-item"><a href="/">Home</a></li>
+          <li className="breadcrumb-item active" aria-current="page">Contact</li>
+        </ol>
+      </nav>
+      <div className="full-page-container">
+        <div className="contact-us-container">
+          <h2>Contact Us</h2>
+          <form>
+        <div className="form-group">
+          <label htmlFor="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div className="form-group">
+          <label htmlFor="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div className="form-group">
+          <label htmlFor="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button onClick={handleButtonClick} type="submit">Submit</button>
+      </form>
+        </div>
+      </div>
+      </div>
+    );
+  };
+
+
+export default ContactForm;

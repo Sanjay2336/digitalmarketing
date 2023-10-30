@@ -1,0 +1,90 @@
+/* ContactUs.css */
+.full-page-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('Assets/Images/contactus.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us-container {
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for the form */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-us-container h2 {
+  font-size: 2rem;
+  color: black; /* Adjust the text color for readability on the background */
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.8); /* Background color with transparency */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+input:focus, textarea:focus {
+  border-color: #007bff;
+  background-color: #f8f8f8;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.breadcrumb {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.breadcrumb-item a:hover {
+  color: #007bff;
+}
+
+.breadcrumb-item.active {
+  color: #007bff;
+}
